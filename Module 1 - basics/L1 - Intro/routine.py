@@ -12,5 +12,3 @@ print("11:00 : I go to bed")
 
 study_hours = 2 * 7
 print("In a week, I study for a total of" ,study_hours ,"hours")
-
-

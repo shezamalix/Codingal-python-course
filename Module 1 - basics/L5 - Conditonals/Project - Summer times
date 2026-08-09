@@ -1,0 +1,14 @@
+# temp > 30 = hot
+#temp < 10 = cold
+#temp 10 to 30 = pleasant
+
+temp = int(input("What is the temerpature?"))
+
+if temp >= 30 :
+    print("It is hot, wear something light and soft")
+
+elif 10 < temp < 30:
+    print("The weather is pleasant")
+
+else :
+    print("The weather is cold, wear a jacket and pullover")

@@ -4,7 +4,7 @@ pasta_pizza = input("Do you prefer pasta or pizza? ").lower()
 if pasta_pizza == "pasta" or pasta_pizza == "1":
     print("1.Alfredo\n2.Arrabatia")
     pasta_flavor = input("What flavor would you prefer? ").lower()
-    if pasta_flavor == "Alfredo" or pasta_flavor == "1" :
+    if pasta_flavor == "alfredo" or pasta_flavor == "1" :
         print("Your alfredo pasta is on the way")
     else:
         print("Your arrabatia pasta is on the way")

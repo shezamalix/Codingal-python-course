@@ -1,7 +1,7 @@
 #Find the sum of the 1st n postitive integers
 # whatever you can do with a for loop can be done with a while
-#for loop is sued when I know exactly how many times I want to repeat smth
-#while loop is sued when I dont know exactly how many times I want to repeat smth
+#for loop is used when I know exactly how many times I want to repeat smth
+#while loop is used when I dont know exactly how many times I want to repeat smth
 
 n = int(input("Enter a number :"))
 

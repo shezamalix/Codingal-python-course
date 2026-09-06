@@ -19,4 +19,4 @@ try :
 # "as err" is used to check what the error message actually is
 except ValueError as err : #specifically catching the value error
     print("Please enter a valid number, don't type letters/symbols")
-    print(err))
+    print(err)

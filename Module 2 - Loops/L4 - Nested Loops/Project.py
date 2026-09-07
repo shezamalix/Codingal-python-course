@@ -1,21 +1,10 @@
-#write a while loop to convert a decimal to binary(or bianary representation)
+num = int(input("Enter a decimal number: "))
 
-PROJECT 4 of MODULE 2
+binary = ""
 
-# Take a variable num and assign any positive number to it
+while num > 0:
+    remainder = num % 2
+    binary = str(remainder) + binary
+    num = num // 2
 
-# Create an empty-string variable - binary_digits. This will hold the final "answer"
-
-# Run while loop - as long as n does not go below 0
-
-# Get remainder (by 2)
-
-# Add the remainder to the answer variable created above
-
-# Floor division to reduce n - What will you divide by?
-
-# Reverse the string to get the correct binary representation
-
-# Print the answer in this format - "The binary number for 25 is 11001"
-
-# : What if num is 0 - does the above process work?
+print("Binary:", binary)

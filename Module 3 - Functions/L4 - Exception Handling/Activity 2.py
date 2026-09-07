@@ -2,7 +2,7 @@
 num =  None # initial value
 
 while not isinstance(num, int): #checks if the number is an int or not
-    try : 
+    try :
         num = int(input("Enter a number : "))
         print(f"the user entered {num}")
 

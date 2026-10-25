@@ -2,7 +2,7 @@
 
 class IOString():
 
-    # Constructor to set default vaalue
+    # Constructor(function which gets executed when u create an object) to set default value
     def __init__(self):
         self.str1 = ""
 
